@@ -1,0 +1,58 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore cached files from popular editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore local configuration files
+.DS_Store
+Thumbs.db
+
+# Ignore secret keys and sensitive information
+secrets.cfg
+config.cfg
+
+# Ignore data folders
+data/
+
+# Ignore compiled binaries
+*.dll
+*.so
+*.dylib
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore pycache folders
+__pycache__/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore binary_class and smile_identification folders
+binary_class/
+smile_identification/
+
+# Ignore large files that exceed GitHub's file size limit
+*.h5
+*.pyd
